@@ -1,0 +1,9 @@
+# Ignore a specific file
+data.txt
+.DS_Store
+
+# Ignore a specific folder and all its contents
+#my_folder/
+
+# Ignore all .log files
+*.log
