@@ -1,6 +1,8 @@
 # Ignore a specific file
+.gitignore
 data.txt
 .DS_Store
+testing.js
 
 # Ignore a specific folder and all its contents
 #my_folder/
