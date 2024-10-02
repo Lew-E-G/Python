@@ -2,16 +2,16 @@ const prompt = require("prompt-sync")() //creating a varibale for fetching pf us
 const name = prompt("Please enter your name: ")
 console.log("Welcome",name)
 
-const shouldWePlay = prompt("Would you like to play Lewis' Lazy Quest?")
+const shouldWePlay = prompt("Would you like to play Lewis' Life Lessons?")
 const condition = shouldWePlay.toLowerCase() === "yes"
 
 if (shouldWePlay.toLowerCase() === "yes") {
     console.log("Great, please make youre choice by typing either 'left' or 'right'")
-    const firstTurn = prompt("You are standing at a fork in a forest path. Which path do you choose?")
+    const firstTurn = prompt("You are hiking Ben Nevis with some friends, and you come to a fork in the road.\nYour friends have chosen to turn right, what path do you choose? ")
     if (firstTurn === "left") {
-        console.log("well done you have won")
+        console.log("Well you 'left' your troubles behind. You Win!")
     } else if (firstTurn === "right") {
-        console.log("Unfortunatley you lost")
+        console.log("Sorry, you your friends 'right' off a cliff. You Lose :(")
     } else {
         console.log("Invalid input")
     }
