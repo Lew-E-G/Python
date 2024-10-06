@@ -25,23 +25,3 @@ const operator = prompt("Enter a sign (+,-,/,*): ");
 
 arithmatic(operator, number1, number2)
 
-/*
-switch (operator) {   //case is used as like an "in case" the operator inputted is blah, do blah
-  case "+":
-    arithmatic(operator,number1,number2)
-    break;
-  case "-":
-    arithmatic(operator,number1,number2)
-    break;
-  case "/":
-    arithmatic(operator,number1,number2)
-    break;
-  case "*":
-    arithmatic(operator,number1,number2)
-    break;
-  default:
-    console.log("invalid entry")
-    valid = false;
-    break;
-}
-*/
