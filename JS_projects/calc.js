@@ -15,8 +15,12 @@ function getNumber (stringNumber) {
 }
 
 function arithmatic(operator, number1, number2) {
-  result = eval(number1+operator+number2);
-  console.log(result)
+  if (operator === "/" && number2 === 0) {
+    console.log("Zero division error")
+  } else {
+    result = eval(number1+operator+number2);
+    console.log(result)
+  }
 }
 
 const number1 = getNumber('One');
