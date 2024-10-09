@@ -5,6 +5,8 @@ const kontacts = []; // Initialize an empty array to store contacts
 
 // Function to print the main menu
 function printInfo() {
+    console.log("")
+    console.log("--------------------------");
     console.log("KONTACTS");
     console.log("Contact Management System");
     console.log("--------------------------");
@@ -14,7 +16,6 @@ function printInfo() {
     console.log("4.Search Kontacts");
     console.log("5.Exit");
 }
-printInfo(); // Call the function to print the menu once when the program starts
 
 // Function to add a new contact
 function addKontact() {
@@ -92,6 +93,7 @@ function searchKontact() {
 // Main program loop that runs until the user chooses to exit
 let loopBreaker = true; // Variable to control when to stop the loop
 while (loopBreaker) {
+    printInfo() // Call the function to print the menu once when the program starts
     const number = prompt("Select an operation (1-5): "); // Prompt the user to choose an option
 
     // Switch statement to handle user input and call the appropriate function
@@ -112,7 +114,8 @@ while (loopBreaker) {
             loopBreaker = false; // Exit the loop and end the program
             break;
         default:
-            console.log("unknown"); // Handle invalid input
+            console.log("UNKNOWN"); // Handle invalid input
+            console.log("")
             break;
     }
 }
