@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What is the capital city of France?",
+            "options": ["Berlin",
+                        "Madrid",
+                        "Paris",
+                        "Rome"
+                    ],
+            "answer": "Paris"
+        },
+        {
+            "question": "Which planet is closest to the sun?",
+            "options": ["Venus",
+                        "Earth",
+                        "Mars",
+                        "Mercury"
+                    ],
+            "answer": "Mercury"
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "options": ["Charle Dickens",
+                        "William Shakespeare",
+                        "Mark Twain",
+                        "Jane Austen"
+                    ],
+            "answer": "William Shakespeare"
+        },
+        {
+            "question": "Which element has the chemical symbol 'O'?",
+            "options": ["Gold",
+                        "Oxygen",
+                        "Iron",
+                        "Hydrogen"
+                    ],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Pacific Ocean",
+                        "Atlantic Ocean",
+                        "Arctic Ocean",
+                        "Indian Ocean"
+                    ],
+            "answer": "Pacific Ocean"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Vincent van Gogh",
+                        "Pablo Picasso",
+                        "Leonardo da Vinci",
+                        "Claude Monet"
+                    ],
+            "answer": "Leonardo da Vinci"
+        },
+        {
+            "question": "Which year did World War II end?",
+            "options": ["1942",
+                        "1945",
+                        "1939",
+                        "1950"
+                    ],
+            "answer": "1945"
+        },
+        {
+            "question": "Which country hosted the 2016 Summer Olympics?",
+            "options": ["China",
+                        "Brazil",
+                        "Japan",
+                        "UK"
+                    ],
+            "answer": "Brazil"
+        },
+        {
+            "question": "What is the main ingredient in guacamole?",
+            "options": ["Avocado",
+                        "Tomato",
+                        "Cucumber",
+                        "Spinach"
+                    ],
+            "answer": "Avocado"
+        },
+        {
+            "question": "What is the capital city of France?",
+            "options": ["Nile River",
+                        "Amazon River",
+                        "Yangtze River",
+                        "Mississippi River"
+                    ],
+            "answer": "Nile River"
+        }
+    ]
+}
