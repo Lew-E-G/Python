@@ -40,7 +40,11 @@ function askQuestion(question) {
     return choiceValue === question.answer
 }
 
-const numOfQuestions = parseInt(prompt("Please choose the number of questions: ")) //valid that this is a valid number
+const numOfQuestions = parseInt(prompt("Please choose the number of questions: ")) 
+if (isNaN(numOfQuestions) || numOfQuestions < 1 || numOfQuestions > questions.length) {
+    console.log("Invalid. Incorrect choice")
+    return false
+}
 const questions = loadQuestions()
 const randomQuestions = getRandomQuestions(questions, numOfQuestions)
 
